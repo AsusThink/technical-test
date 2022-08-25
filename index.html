@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue + TS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/98841832ce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+
+    <div id="myDropdown" class="dropdown-content">
+        <input type="text" placeholder="Select an item..." id="myInput" onfocusout="ocultarLista()" onclick="getFruits()" onkeydown="getFruits()">
+        <ul id="ResultadosBusqueda">
+            <!--<li>Fruta1</li>-->
+        </ul>
+
+    </div>
+
+
+    <script type="text/javascript" src="fruitListScript.js"></script>
+
+</body>
+
+</html>
